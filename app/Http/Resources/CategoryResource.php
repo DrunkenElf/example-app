@@ -4,8 +4,9 @@ namespace App\Http\Resources;
 
 use App\Dto\Category\CategoryDto;
 use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
 
-class CategoryResource extends \Illuminate\Http\Resources\Json\JsonResource
+class CategoryResource extends JsonResource
 {
     /**
      * @param Request $request

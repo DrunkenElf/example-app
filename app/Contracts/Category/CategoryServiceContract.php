@@ -14,4 +14,6 @@ interface CategoryServiceContract
     public function delete(int $id);
 
     public function findById(int $id);
+
+    public function search(array|null $params);
 }
